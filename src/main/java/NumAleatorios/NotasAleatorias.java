@@ -20,12 +20,30 @@ public class NotasAleatorias {
 
             int nota = (int) (Math.random()*10);
 
-            if (nota == 10){
+            if (nota >= 8 && nota <= 10){
+                System.out.println("Sobresaliente: " + nota);
+                countBien++;
+            }
+            else if(nota >= 7 && nota <= 8){
                 System.out.println("Notable: " + nota);
                 countBien++;
+
+            }else if(nota >= 5 && nota <= 6){
+                System.out.println("Suficiente: " + nota);
+                countSuficiente++;
+            }else {
+                System.out.println("Suspenso: " + nota);
+                countSuspenso++;
             }
 
         }
+
+        System.out.println("");
+        System.out.println("*******TOTALES*******");
+
+        System.out.println("Notas Sobresalientes: " + countBien);
+        System.out.println("Notas Buenas: " + countSuficiente);
+        System.out.println("Suspensos: " + countSuspenso);
 
 
 
