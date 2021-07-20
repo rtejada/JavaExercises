@@ -1,4 +1,4 @@
-package Funciones;
+package funciones;
 
 public class DigitosNumero {
     public static void main(String[] args) {

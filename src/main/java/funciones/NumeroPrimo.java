@@ -1,4 +1,4 @@
-package Funciones;
+package funciones;
 
 /**
  * Dice si un número es o no es primo (sin funciones)

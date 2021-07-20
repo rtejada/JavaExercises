@@ -1,4 +1,4 @@
-package Funciones.matematicas;
+package funciones.matematicas;
 /**
  * Funciones matemáticas de propósito general
  *

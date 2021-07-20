@@ -1,4 +1,4 @@
-package Funciones;
+package funciones;
 
 
 public class MuestraArrayFunciones {
@@ -60,7 +60,7 @@ public class MuestraArrayFunciones {
      */
     public static void muestraArrayIntBi(int x[][]) {
 
-        String formatoNumero = "%" + Funciones.matematicas.Varias.digitos(maximoArrayIntBi(x)) + "d";
+        String formatoNumero = "%" + funciones.matematicas.Varias.digitos(maximoArrayIntBi(x)) + "d";
         for (int f = 0; f < filasArrayIntBi(x); f++) {
             for (int c = 0; c < columnasArrayIntBi(x); c++) {
                 System.out.printf(formatoNumero + " ", x[f][c]);
